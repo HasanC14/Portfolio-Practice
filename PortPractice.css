@@ -1,37 +1,49 @@
-body{
-	background-image: url(https://images.unsplash.com/photo-1476365518243-f738bf58443d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
-	background-size: cover; 
+body {
+	font-family: 'Oswald', sans-serif;
+	background-image: url(topbanner.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
 }
-span{
-	color: darkred;
-	background-color: 3A5BA0;
-}
-form{
-	color: darkred;
-	background-color: rgba(255, 176, 170, 0.1);
-	text-align: center;
 
+h2,
+h1,
+p,
+h4 {
+	color: rgb(235, 209, 245);
 }
-.center{
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-} 
-/* img{
-	float: right;
-} */
-.hudai{
-	text-align: center;
+
+h3 {
+	font-size: x-large;
 }
-.emnei{
-	color: rgba(0, 150, 300, 1.0);
-}
-.one:hover {
-	opacity: 0.3;
-	font-family: Calibri;
+
+.pf {
 	color: blueviolet;
 }
-footer{
-	text-align: center;
+
+.home {
+	display: flex;
+}
+
+.intro {
+	width: 50%;
+	padding-top: 30px;
+	padding-left: 25px;
+
+}
+
+.intro img {
+	width: 80%;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+
+.fb {
+	color: whitesmoke;
+	font-size: x-small;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: blueviolet;
+	background-image: linear-gradient(blueviolet, violet);
+	padding: 5px 10px;
+	border-radius: 5px;
 }
