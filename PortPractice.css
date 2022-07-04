@@ -75,12 +75,6 @@ h3 {
 	display: flex;
 }
 
-footer {
-	padding-top: 10%;
-	color: rgba(240, 255, 255, 0.548);
-	text-align: center;
-}
-
 .el {
 	background-color: rgba(137, 43, 226, 0.486);
 	margin-left: 5%;
@@ -89,4 +83,11 @@ footer {
 	border-radius: 10px;
 	box-shadow: 8px 12px 25px 1px rgb(141, 106, 141);
 	border-left: 5px solid blueviolet;
+}
+
+footer {
+	font-family: 'Times New Roman', Times, serif;
+	padding-top: 10%;
+	color: rgba(240, 255, 255, 0.329);
+	text-align: center;
 }
