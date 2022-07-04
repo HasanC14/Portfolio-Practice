@@ -1,0 +1,37 @@
+body{
+	background-image: url(https://images.unsplash.com/photo-1476365518243-f738bf58443d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+	background-size: cover; 
+}
+span{
+	color: darkred;
+	background-color: 3A5BA0;
+}
+form{
+	color: darkred;
+	background-color: rgba(255, 176, 170, 0.1);
+	text-align: center;
+
+}
+.center{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+} 
+/* img{
+	float: right;
+} */
+.hudai{
+	text-align: center;
+}
+.emnei{
+	color: rgba(0, 150, 300, 1.0);
+}
+.one:hover {
+	opacity: 0.3;
+	font-family: Calibri;
+	color: blueviolet;
+}
+footer{
+	text-align: center;
+}
